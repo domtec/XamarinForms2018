@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App01_ConsultarCEP1.iOS", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App01_ConsultarCEP1.UWP", "App01_ConsultarCEP1\App01_ConsultarCEP1.UWP\App01_ConsultarCEP1.UWP.csproj", "{A1DE90D6-F66C-47F2-9BDE-DD71243CC514}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App01_ConsultarCEP1", "App01_ConsultarCEP1\App01_ConsultarCEP1\App01_ConsultarCEP1.csproj", "{CF7B3BCB-AC78-478D-B1F0-5B4C0CACB810}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App01_ConsultarCEP1", "App01_ConsultarCEP1\App01_ConsultarCEP1\App01_ConsultarCEP1.csproj", "{CF7B3BCB-AC78-478D-B1F0-5B4C0CACB810}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
