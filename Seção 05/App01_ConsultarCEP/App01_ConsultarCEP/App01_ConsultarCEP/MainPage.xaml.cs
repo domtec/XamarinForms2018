@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
-using App01_ConsultarCEP1.Servico.Modelo;
-using App01_ConsultarCEP1.Servico;
+using App01_ConsultarCEP.Servico.Modelo;
+using App01_ConsultarCEP.Servico;
 
-namespace App01_ConsultarCEP1
+namespace App01_ConsultarCEP
 {
     public partial class MainPage : ContentPage
     {
