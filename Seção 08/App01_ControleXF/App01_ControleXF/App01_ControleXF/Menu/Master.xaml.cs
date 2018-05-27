@@ -74,5 +74,17 @@ namespace App01_ControleXF.Menu
             Detail = new Controles.SearchBarPage();
             IsPresented = false;
         }
+
+        private void GoSliderStepperPage(object sender, EventArgs args)
+        {
+            Detail = new Controles.SliderStepperPage();
+            IsPresented = false;
+        }
+
+        private void GoSwitchPage(object sender, EventArgs args)
+        {
+            Detail = new Controles.SwitchPage();
+            IsPresented = false;
+        }
     }
 }
