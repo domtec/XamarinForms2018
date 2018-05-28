@@ -92,7 +92,9 @@
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <None Include="Entitlements.plist" />
-    <None Include="Info.plist" />
+    <None Include="Info.plist">
+      <SubType>Designer</SubType>
+    </None>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -158,5 +160,14 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\push.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\usb%403x.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\usb%401x.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\usb%402x.jpg" />
   </ItemGroup>
 </Project>

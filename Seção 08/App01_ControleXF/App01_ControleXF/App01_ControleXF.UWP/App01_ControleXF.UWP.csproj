@@ -130,6 +130,11 @@
     <Content Include="Assets\Wide310x150Logo.scale-100.png" />
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
     <Content Include="Assets\Wide310x150Logo.scale-400.png" />
+    <Content Include="Imagem\usb.scale-100.jpg" />
+    <Content Include="Imagem\usb.scale-125.jpg" />
+    <Content Include="Imagem\usb.scale-150.jpg" />
+    <Content Include="Imagem\usb.scale-200.jpg" />
+    <Content Include="Imagem\usb.scale-400.jpg" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="push.jpg" />
   </ItemGroup>

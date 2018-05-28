@@ -5,6 +5,7 @@
              x:Class="App01_ControleXF.Menu.Master">
     <MasterDetailPage.Master>
         <ContentPage Title="Menu" Padding="0, 50, 0, 0">
+            <ScrollView>
             <StackLayout>
                 <Button Text="Activity Indicator" Clicked="GoActivityIndicatorPage" />
                 <Button Text="Progress Bar" Clicked="GoProgressBarPage" />
@@ -18,10 +19,19 @@
                 <Button Text="SearchBar" Clicked="GoSearchBarPage" />
                 <Button Text="SliderStepper" Clicked="GoSliderStepperPage" />
                 <Button Text="Switch" Clicked="GoSwitchPage" />
+                <Button Text="Image" Clicked="GoImagePage" />
+                <Button Text="ListView" Clicked="GoListViewPage" />
+                <Button Text="TableView" Clicked="GoTableViewPage" />
+                <Button Text="WebView" Clicked="GoWebViewPage" />
             </StackLayout>
+            </ScrollView>
         </ContentPage>
     </MasterDetailPage.Master>
     <MasterDetailPage.Detail>
-        <page:MainPage Padding="0,50,0,0" />
+        <NavigationPage>
+            <x:Arguments>
+                <page:MainPage Padding="0,50,0,0" />
+            </x:Arguments>
+        </NavigationPage>
     </MasterDetailPage.Detail>
 </MasterDetailPage>
