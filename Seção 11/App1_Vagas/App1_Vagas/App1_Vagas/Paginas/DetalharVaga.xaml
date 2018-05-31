@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1_Vagas.Paginas.DetalharVaga">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="{Binding NomeVaga}" FontSize="18" FontAttributes="Bold" HorizontalOptions="Center"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Empresa: " FontSize="10" TextColor="#CCCCCC" FontAttributes="Bold" />
+                <Label Text="{Binding Empresa}" FontSize="10" TextColor="#000000" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Quantidade: " FontSize="10" TextColor="#CCCCCC" FontAttributes="Bold" />
+                <Label Text="{Binding Quantidade}" FontSize="10" TextColor="#000000" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Cidade: " FontSize="10" TextColor="#CCCCCC" FontAttributes="Bold" />
+                <Label Text="{Binding Cidade}" FontSize="10" TextColor="#000000" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Salário: " FontSize="10" TextColor="#CCCCCC" FontAttributes="Bold" />
+                <Label Text="{Binding Salario}" FontSize="10" TextColor="#000000" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Descrição: " FontSize="10" TextColor="#CCCCCC" FontAttributes="Bold" />
+                <Label Text="{Binding Descricao}" FontSize="10" TextColor="#000000" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Tipo da Contratação: " FontSize="10" TextColor="#CCCCCC" FontAttributes="Bold" />
+                <Label Text="{Binding TipoContratacao}" FontSize="10" TextColor="#000000" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Telefone: " FontSize="10" TextColor="#CCCCCC" FontAttributes="Bold" />
+                <Label Text="{Binding Telefone}" FontSize="10" TextColor="#000000" />
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="E-mail: " FontSize="10" TextColor="#CCCCCC" FontAttributes="Bold" />
+                <Label Text="{Binding Email}" FontSize="10" TextColor="#000000" />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
