@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1_Mimica.View.Resultado">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+            <StackLayout Orientation="Vertical">
+                <Label Text="Grupo 1" FontSize="20" />
+                <Label Text="{Binding Jogo.Grupo1.Nome}" FontSize="20" HorizontalOptions="Start" />
+                <StackLayout>
+                    <Frame BorderColor="Black">
+                        <Label Text="{Binding Jogo.Grupo1.Pontuacao}" FontSize="64" HorizontalOptions="Center"  />
+                    </Frame>
+
+                </StackLayout>
+            </StackLayout>
+            <StackLayout Orientation="Vertical">
+                <Label Text="Grupo 2" FontSize="20" />
+                <Label Text="{Binding Jogo.Grupo2.Nome}" FontSize="20" HorizontalOptions="Start" />
+                <StackLayout>
+                    <Frame BorderColor="Black">
+                        <Label Text="{Binding Jogo.Grupo2.Pontuacao}" FontSize="64" HorizontalOptions="Center" />
+                    </Frame>
+
+                </StackLayout>
+            </StackLayout>
+            <StackLayout>
+                <Button Text="Jogar Outra Vez" FontSize="20" TextColor="White" BackgroundColor="LightBlue" 
+                        HorizontalOptions="Center" Command="{Binding JogarNovamente}" />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
